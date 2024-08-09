@@ -1,7 +1,7 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
-import ChatComponent from './chatonetoone/ChatComponent2.vue'
+import ChatComponent from './chatonetoone/ChatComponent.vue'
 import { onMounted } from 'vue'
 import { usePage } from '@inertiajs/vue3'
 
@@ -27,7 +27,7 @@ onMounted(() => {
                 </div>
             </div>
         </div>
-        <div style="position: fixed;bottom: 25px; right: 10px; background-color: white; ">
+        <div style="position: fixed;bottom: 20px; right: 10px; background-color: white; ">
 
             <ChatComponent :currentUser="page.props.auth.user"></ChatComponent>
         </div>
