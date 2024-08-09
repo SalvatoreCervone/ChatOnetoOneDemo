@@ -25,7 +25,7 @@ const page = usePage()
                 </div>
             </div>
         </div>
-        <div style="position: fixed;bottom: 20px; right: 10px; background-color: white; ">
+        <div style="position: fixed;bottom: 0px; right: 10px; background-color: white; ">
 
             <ChatComponent :currentUser="page.props.auth.user"></ChatComponent>
         </div>
