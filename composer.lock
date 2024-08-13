@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aeeb8447d4f422d5c9e89d7952ae51d6",
+    "content-hash": "a8741daa8870944b6a73478cc03bc18f",
     "packages": [
         {
             "name": "brick/math",
@@ -4291,6 +4291,66 @@
                 }
             ],
             "time": "2024-06-11T12:45:25+00:00"
+        },
+        {
+            "name": "salvatorecervone/chatonetoone",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SalvatoreCervone/ChatOneToOne.git",
+                "reference": "3d4da374a3b569a483628e20fcc8824e888c1701"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SalvatoreCervone/ChatOneToOne/zipball/3d4da374a3b569a483628e20fcc8824e888c1701",
+                "reference": "3d4da374a3b569a483628e20fcc8824e888c1701",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^11.0",
+                "laravel/reverb": "@beta"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~7",
+                "phpunit/phpunit": "~9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SalvatoreCervone\\ChatOneToOne\\ChatOneToOneServiceProvider"
+                    ],
+                    "aliases": {
+                        "ChatOneToOne": "SalvatoreCervone\\ChatOneToOne\\Facades\\ChatOneToOne"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SalvatoreCervone\\ChatOneToOne\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Salvatore Cervone",
+                    "email": "salvatore999@virgilio.it"
+                }
+            ],
+            "description": "Real time Chat one to one",
+            "homepage": "https://github.com/salvatorecervone/chatonetoone",
+            "keywords": [
+                "ChatOneToOne",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/SalvatoreCervone/ChatOneToOne/issues",
+                "source": "https://github.com/SalvatoreCervone/ChatOneToOne/tree/1.1"
+            },
+            "time": "2024-08-12T12:13:03+00:00"
         },
         {
             "name": "symfony/clock",
